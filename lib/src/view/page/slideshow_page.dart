@@ -27,8 +27,6 @@ class SlideShowPage extends StatelessWidget {
 }
 
 class _MyCustomSlideshow extends StatelessWidget {
-  
-
   @override
   Widget build(BuildContext context) {
     return SlideshowCompletedWidget(

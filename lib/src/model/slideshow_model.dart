@@ -13,18 +13,14 @@ class SlideshowModel with ChangeNotifier{
   // Setter
   set primarySize(double pSize){
     this._primarySize = pSize;
-    notifyListeners();
   }
   set secondarySize(double sSize){
     this._secondarySize = sSize;
-    notifyListeners();
   }
   set primaryColor(Color pColor){
     this._primaryColor = pColor;
-    notifyListeners();
   }
   set secondaryColor(Color sColor){
     this._secondaryColor = sColor;
-    notifyListeners();
   }
 }
